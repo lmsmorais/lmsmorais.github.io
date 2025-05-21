@@ -1024,23 +1024,38 @@ body > footer .copyrights {
 .timeline-item .item-title {
   display: block;
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.2em;
 }
 
 .timeline-item .item-period {
   display: inline-block;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.2em;
   color: #1e90ff;
   margin-bottom: 8px;
 }
 
-.timeline-item .item-project-title {
+.timeline-item .item-important-title {
   display: block;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.2em;
   color: #1e90ff;
+  
+}
+
+.timeline-item .item-important-tec {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1.2em;
+  color: #1e90ff;
+  
+}
+
+.timeline-item .item-description {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1.6em;
   
 }
 
