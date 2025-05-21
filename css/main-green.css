@@ -1036,6 +1036,14 @@ body > footer .copyrights {
   margin-bottom: 8px;
 }
 
+.timeline-item .item-project-title {
+  display: block;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #1e90ff;
+  
+}
+
 .timeline-item .item-small {
   display: inline-block;
   font-size: 12px;
