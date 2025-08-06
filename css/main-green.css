@@ -664,7 +664,7 @@ body > footer .copyrights {
 
 /* Main menu */
 .site-nav {
-  float: right;
+  float:none;
 }
 .site-main-menu {
   display: block;
