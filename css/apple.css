@@ -147,10 +147,46 @@ img {
   color: var(--text-primary);
 }
 
-.apple-nav-logo-icon {
-  width: 17px;
-  height: 17px;
-  fill: currentColor;
+/* Language Toggle Pill */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  background: var(--bg-pill);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  padding: 4px 10px;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-toggle:hover {
+  background: var(--bg-pill-hover);
+  border-color: var(--border-hover);
+}
+
+.lang-toggle-inner {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.lang-opt {
+  color: var(--text-tertiary);
+  transition: color 0.2s ease;
+  line-height: 1;
+}
+
+.lang-opt.active {
+  color: var(--text-primary);
+}
+
+.lang-divider {
+  color: var(--text-muted);
+  font-weight: 300;
+  font-size: 11px;
 }
 
 .apple-nav-links {
