@@ -3,23 +3,22 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Luís Morais</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="description" content="Curriculum vitae Luís Morais" />
-  <meta name="keywords" content="curriculo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Currículo profissional de Luís Morais, desenvolvedor de aplicações Java." />
   <link rel="shortcut icon" href="favicon.ico">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i|Montserrat:300,400,500,600,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/normalize.css" type="text/css">
   <link rel="stylesheet" href="css/animate.css" type="text/css">
   <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
   <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
   <link rel="stylesheet" href="css/main-green.css" type="text/css">
-  <script src="js/jquery-2.1.3.min.js"></script>
-  <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body class="material-template">
@@ -37,7 +36,7 @@
     <header id="site_header" class="header mobile-menu-hide">
       <div class="header-content">
         <div class="site-title-block mobile-hidden">
-          <a href="index.html#home">
+          <a href="#home">
             <div class="site-title">Luís <span>Morais</span></div>
           </a>
         </div>
@@ -47,14 +46,13 @@
           <!-- Main menu -->
           <ul id="nav" class="site-main-menu">
             <li>
-              <a class="pt-trigger" href="index.html#home">Início</a>
+              <a class="pt-trigger" href="#home">Início</a>
             </li>
 
             <li>
-              <a class="pt-trigger" href="index.html#resume">Experiência</a>
+              <a class="pt-trigger" href="#resume">Experiência</a>
             </li>
-
-            <!-- /Main menu -->
+          </ul>
         </div>
         <!-- Navigation -->
       </div>
@@ -67,8 +65,9 @@
         <div class="mobile-site-title">Luís Morais</div>
       </div>
 
-      <a class="menu-toggle mobile-visible">
-        <i class="fa fa-bars"></i>
+      <a href="#site_header" class="menu-toggle mobile-visible" aria-label="Abrir menu"
+        aria-controls="site_header" aria-expanded="false">
+        <i class="fa fa-bars" aria-hidden="true"></i>
       </a>
     </div>
     <!-- /Mobile Header -->
@@ -89,7 +88,7 @@
                     <div class="photo">
                       <img
                         src="https://avatars2.githubusercontent.com/u/67266569?s=460&u=8271f7b9bdae3c36359ad322f6f4e162905a5b10&v=4"
-                        alt="Luís Morais">
+                        alt="Luís Morais" width="460" height="460" fetchpriority="high" decoding="async">
                     </div>
                   </div>
 
@@ -107,7 +106,10 @@
                     </div>
 
                     <div class="social-links">
-                      <a href="https://www.linkedin.com/in/lu%C3%ADs-morais-b1b244197/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/in/lu%C3%ADs-morais-b1b244197/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Perfil de Luís Morais no LinkedIn">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
                       <!-- <a href="https://github.com/lmsmorais" target="_blank"><i class="fa fa-github"></i></a> -->
                     </div>
                   </div>
@@ -142,14 +144,22 @@
                   </div>
                   
                   <div class="bloco-badget">
-                    <img src="images/aws-cloud-practitioner.jpg" width="140" height="70">
-                    <img src="images/ibm-practitioner.jpg" width="140" height="70">
-                    <img src="images/banking-jumpstart.jpg" width="140" height="70">
-                    <img src="images/ibm-explorer.jpg" width="140" height="70">
-                    <img src="images/ibm-garage-essential.jpg" width="140" height="70">
-                    <img src="images/ibm-garage-foundations.jpg" width="140" height="70">
-                    <img src="images/ibm-garage-intermediate.jpg" width="140" height="70">
-                    <img src="images/ibm-mq.jpg" width="140" height="70">
+                    <img src="images/aws-cloud-practitioner.jpg" alt="Certificação AWS Cloud Practitioner"
+                      width="140" height="140" loading="lazy" decoding="async">
+                    <img src="images/ibm-practitioner.jpg" alt="Certificação IBM Practitioner"
+                      width="140" height="140" loading="lazy" decoding="async">
+                    <img src="images/banking-jumpstart.jpg" alt="Certificado Banking Jumpstart"
+                      width="140" height="140" loading="lazy" decoding="async">
+                    <img src="images/ibm-explorer.jpg" alt="Certificação IBM Explorer"
+                      width="140" height="140" loading="lazy" decoding="async">
+                    <img src="images/ibm-garage-essential.jpg" alt="Certificado IBM Garage Essential"
+                      width="140" height="140" loading="lazy" decoding="async">
+                    <img src="images/ibm-garage-foundations.jpg" alt="Certificado IBM Garage Foundations"
+                      width="140" height="140" loading="lazy" decoding="async">
+                    <img src="images/ibm-garage-intermediate.jpg" alt="Certificado IBM Garage Intermediate"
+                      width="140" height="140" loading="lazy" decoding="async">
+                    <img src="images/ibm-mq.jpg" alt="Certificado IBM MQ" width="140" height="140"
+                      loading="lazy" decoding="async">
                   </div>
 
                 </div>
@@ -206,7 +216,7 @@
                           </p>
                           <br>
                           <p class="item-description">
-                            <span class="item-important-tec">Tecnologias: Java 7/21, Spring Boot, REST/SOAP, Redis, Oracle, Docker, Kubernetes, JUnit, WireMock, Testcontainers, Jenkins
+                            <span class="item-important-tec">Tecnologias: Java 7/21, Spring Boot, REST/SOAP, Redis, Oracle, Docker, Kubernetes, JUnit, WireMock, Testcontainers, Jenkins</span>
                           </p>
                         </div>
 
@@ -222,7 +232,7 @@
                           </p>
                           <br>
                           <p class="item-description">
-                            <span class="item-important-tec">Tecnologias:Java 11, Spring Boot, Kafka, IBM MQ, MongoDB, Oracle, JUnit, Mockito, Docker, Jenkins, Bamboo, SonarQube, OpenShift, GitLab
+                            <span class="item-important-tec">Tecnologias: Java 11, Spring Boot, Kafka, IBM MQ, MongoDB, Oracle, JUnit, Mockito, Docker, Jenkins, Bamboo, SonarQube, OpenShift, GitLab</span>
                           </p>
                         </div>
 
@@ -238,7 +248,7 @@
                           </p>
                           <br>
                             <p class="item-description">
-                              <span class="item-important-tec">Tecnologias: Java 11/17, Spring Boot, JPA, REST API, Docker, Swagger, MySQL, PostgreSQL, AWS (EC2, RDS, Route 53), JUnit, Mockito, React (apoio ao frontend)
+                              <span class="item-important-tec">Tecnologias: Java 11/17, Spring Boot, JPA, REST API, Docker, Swagger, MySQL, PostgreSQL, AWS (EC2, RDS, Route 53), JUnit, Mockito, React (apoio ao frontend)</span>
                             </p>
                         </div>
 
@@ -256,7 +266,7 @@
                           </p>
                           <br>
                           <p class="item-description">
-                            <span class="item-important-tec">Tecnologias: Java 8/11, Struts, JSP, Servlets, Tomcat, Spring Boot, REST API, Swagger, Docker, Jenkins, MySQL
+                            <span class="item-important-tec">Tecnologias: Java 8/11, Struts, JSP, Servlets, Tomcat, Spring Boot, REST API, Swagger, Docker, Jenkins, MySQL</span>
                           </p>
                         </div>
                       </div>
@@ -290,17 +300,11 @@
   <footer>
     <div class="copyrights">&copy; Luís Morais</div>
   </footer>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/pages-switcher.js"></script>
-  <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-  <script type="text/javascript" src="js/validator.js"></script>
-  <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
-  <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-  <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-  <script type="text/javascript" src="js/jquery.googlemap.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script defer src="js/jquery-2.1.3.min.js"></script>
+  <script defer src="js/modernizr.custom.js"></script>
+  <script defer src="js/pages-switcher.js"></script>
+  <script defer src="js/owl.carousel.min.js"></script>
+  <script defer src="js/site.js"></script>
 </body>
 
 </html>
